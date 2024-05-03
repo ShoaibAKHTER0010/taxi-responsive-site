@@ -13,7 +13,7 @@ const Footer = () => {
         </div>
         {/* second */}
         <div className="text-white text-xs font-normal font-['Plus Jakarta Sans'] pt-6">
-            <ul className='flex flex-row list-none space-x-10'>
+            <ul className='flex flex-row list-none space-x-10 pr-14'>
                 <li>Aboub</li>
                 <li>Services</li>
                 <li>Contact</li>

@@ -19,15 +19,15 @@ const Navbar = () => {
       </div>
 
 <div className=''>
-      <ul className={`md:flex md:items-center md:pb-0 pb-12 absolute md:static bg-white md:z-auto z-[-1] left-0 w-full md:w-auto md:pl-0 pl-9 transition-all duration-500 ease-in ${open ? 'top-20 ':'top-[-490px]'}`}>
+      <ul className={`md:flex md:items-center md:pb-0 pb-12 absolute md:static bg-white md:z-auto z-[-1] left-0 w-full md:w-auto md:pl-o pl-9 pr-10 transition-all duration-500 ease-in ${open ? 'top-20 ':'top-[-490px]'}`}>
         {
           Links.map((link)=>(
-            <li key={link.name} className="text-xl md:my-0 my-7 text-zinc-800 md:text-base font-medium font-['Plus Jakarta Sans px-8">
+            <li key={link.name} className="text-xl md:my-0 my-7 text-zinc-800 md:text-base font-medium font-['Plus Jakarta Sans] px-8">
               <a href={link.link} className='text-gray-800 hover:text-gray-400 duration-500'>{link.name}</a>
             </li>
           ))
         }
-        <Button className=" ">
+        <Button>
           Get Started
         </Button>
       </ul>
