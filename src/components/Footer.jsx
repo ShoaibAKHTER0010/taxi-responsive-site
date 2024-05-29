@@ -23,7 +23,7 @@ const Footer = () => {
         </div>
          {/* border */}
          <div className=' border-t border-[#8E47FF] max-w-7xl mx-20 flex justify-between py-10'>
-        <p className="text-violet-100 text-xs font-normal font-['Plus Jakarta Sans']">Copyright © 2023 TaxiDaneil. All Rights Reserved</p>
+        <p className="text-violet-100 text-xs font-normal font-['Plus Jakarta Sans']">Copyright © 2024 Shoaib Akhter. All Rights Reserved</p>
         <p className="text-violet-100 text-xs font-normal font-['Plus Jakarta Sans'] ml-16 md:ml-0">All Right Reserve</p>
 </div>
     </footer>

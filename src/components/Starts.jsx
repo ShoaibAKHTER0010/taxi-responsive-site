@@ -28,7 +28,7 @@ We handle the traffic, you enjoy the journey.
 
       <div  className="flex flex-col mt-40 md:mt-4 md:flex-row  py-10  flex-wrap mx-1.5 md:mx-0 ">
 
-<button className=" px-8 py-5 bg-gradient-to-br from-violet-500 to-violet-500 rounded-lg justify-center items-center text-white">
+<button className=" px-8 py-5 bg-gradient-to-br from-violet-500 to-violet-800 rounded-lg justify-center items-center text-white">
   Get a free Quote
 </button>
 

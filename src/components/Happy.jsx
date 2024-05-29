@@ -9,7 +9,7 @@ const Happy = () => {
         {/* fiest div */}
     <div className="md:w-1/2 w-full   pl-4 md:pl-10">
     <p className=" lg: text-[34px] xl:text-[46px] pt-4">
-            <span className="text-indigo-950 font-bold font-['Plus-Jakarta Sans'] leading-[42.28px] md:leading-[67.28px]">
+            <span className="text-indigo-900 font-bold font-['Plus-Jakarta Sans'] leading-[42.28px] md:leading-[67.28px]">
             Hear from Our
             </span> <br />
             <span className="text-violet-500  font-bold font-Plus Jakarta Sans leading-[42.28px] md:leading-[67.28px] ">

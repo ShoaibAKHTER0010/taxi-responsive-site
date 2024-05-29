@@ -9,7 +9,7 @@ const Ride = () => {
         <div className="md:w-1/2 w-full pl-4 md:pl-10 py-14">
             <h3 className="text-violet-600 text-xl font-extrabold font-['Manrope'] uppercase leading-[18px] tracking-wide">why choose us</h3>
           <p className=" lg: text-[34px] xl:text-[46px] pt-4">
-            <span className="text-indigo-950 font-bold font-['Plus-Jakarta Sans'] leading-[42.28px] md:leading-[67.28px]">
+            <span className="text-indigo-900 font-bold font-['Plus-Jakarta Sans'] leading-[42.28px] md:leading-[67.28px]">
             Why TaxiDaniel Wins the 
             </span> <br />
             <span className="text-violet-500  font-bold font-Plus Jakarta Sans leading-[42.28px] md:leading-[67.28px] ">
