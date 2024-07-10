@@ -10,9 +10,9 @@ const Navbar = () => {
     ];
     let [open,setOpen]=useState(false);
   return (
-    <div className='w-full fixed top-0 left-0'>
+    <div className='w-full fixed top-0 left-0 '>
       <div className='md:flex items-center justify-between bg-white py-4 md:px-16 px-4'>
-      <div className="text-zinc-800 text-3xl font-bold font-['Inter'] pl-0 md:pl-16 ">TaxiDaniel</div>
+      <div className="text-zinc-800 text-3xl font-bold font-['Inter'] pl-0 md:pl-4 ">TaxiDaniel</div>
       
       <div onClick={()=>setOpen(!open)} className='text-3xl absolute right-8 top-6 cursor-pointer md:hidden'>
       <ion-icon name={open ? 'close':'menu'}></ion-icon>

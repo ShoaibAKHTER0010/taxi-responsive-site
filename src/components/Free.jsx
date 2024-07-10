@@ -55,10 +55,10 @@ const Free = () => {
          <h2 className="text-center text-gray-900 text-[28.43px] font-bold font-['Plus Jakarta Sans'] capitalize ">Get a free <span className="text-violet-600 text-[28.43px] font-bold font-['Plus Jakarta Sans'] capitalize">quote</span> </h2>
 
          <label htmlFor="FULL NAME" className="block  text-gray-900 text-lg font-medium font-['Plus Jakarta Sans'] leading-snug py-4">FULL NAME</label>
-         <input type="text" name="name" placeholder='Shoaib Akhter' className="bg-slate-100 text-gray-900 text-opacity-50 text-lg font-normal font-['Plus Jakarta Sans'] leading-snug rounded-lg py-4 px-3 w-full" />
+         <input type="text" name="name" placeholder='your name' className="bg-slate-100 text-gray-900 text-opacity-50 text-lg font-normal font-['Plus Jakarta Sans'] leading-snug rounded-lg py-4 px-3 w-full" />
 
          <label htmlFor="FULL NAME" className="block text-gray-900 text-lg font-medium font-['Plus Jakarta Sans'] leading-snug py-4">Email</label>
-         <input type="email" name="name" placeholder='Shoaib0010@gmail.com' className="bg-slate-100 text-gray-900 text-opacity-50 text-lg font-normal font-['Plus Jakarta Sans'] leading-snug  rounded-lg py-4 px-3 w-full"  />
+         <input type="email" name="name" placeholder='...@gmail.com' className="bg-slate-100 text-gray-900 text-opacity-50 text-lg font-normal font-['Plus Jakarta Sans'] leading-snug  rounded-lg py-4 px-3 w-full"  />
 
          <label htmlFor="FULL NAME" className="block text-gray-900 text-lg font-medium font-['Plus Jakarta Sans'] leading-snug py-4">Contact</label>
          <input type="number" name="name" placeholder='03-1223-332'className="bg-slate-100 text-gray-900 text-opacity-50 text-lg font-normal font-['Plus Jakarta Sans'] leading-snug rounded-lg py-4 px-3 w-full" />

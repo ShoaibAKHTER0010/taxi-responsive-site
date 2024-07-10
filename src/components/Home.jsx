@@ -2,7 +2,7 @@ import React from "react";
 
 const Home = () => {
   return (
-    <section className=" w-full  py-16"
+    <section id="home-section" className=" w-full  py-10"
     style={{
      backgroundImage : "url('/images/home.png')",
      backgroundPosition:'center',
@@ -10,10 +10,11 @@ const Home = () => {
      backgroundSize: 'cover',
      
      
+     
     }}>
     
-      <main className="mx-auto max-w-7xl  flex flex-col gap-40 ">
-        <div className="md:w-1/2 w-full pl-4 md:pl-10">
+      <main className="mx-auto max-w-7xl  flex flex-col gap-40 pt-16 ">
+        <div className="md:w-1/2 w-full pl-4 md:pl-10 ">
           <p className=" lg: text-[34px] xl:text-[46px]">
             <span className="text-indigo-900 font-bold font-['Plus-Jakarta Sans'] leading-[42.28px] md:leading-[67.28px]">
               Need a lift? Just call,<br /> don't stall.
@@ -29,12 +30,12 @@ const Home = () => {
             Let us handle the traffic while you enjoy the view.
           </p>
 
-          <div className="flex flex-col gap-10 mt-52 md:mt-4 md:flex-row  py-10  flex-wrap mx-2 md:mx-0">
-            <button className=" px-8 py-3 bg-gradient-to-br from-violet-500 to-violet-500 rounded-lg justify-center items-center text-white">
+          <div className="flex flex-col gap-10 mt-52 md:mt-4 md:flex-row    flex-wrap mx-2 md:mx-0">
+            <button className=" px-8 py-3 bg-gradient-to-br from-violet-500 to-violet-500 hover:border-2 hover:border-black rounded-lg justify-center items-center text-white">
               Get a free Quote
             </button>
 
-            <button className="px-8 py-3  border-2 border-black rounded-lg justify-center items-center">
+            <button className="px-8 py-3  border-2 border-black hover:bg-gradient-to-br from-violet-500 to-violet-500 hover:text-white rounded-lg justify-center items-center">
               Get a free Quote
             </button>
           </div>
