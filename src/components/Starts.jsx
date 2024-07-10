@@ -6,7 +6,7 @@ const Starts = () => {
     <main className="mx-auto max-w-7xl  flex flex-col-reverse md:flex-row gap-2 md:gap-16  pl-4 md:pl-10">
      {/* first main div */}
      <div className="md:w-1/2 w-full pt-16 md:pt-0 ">
-        <img src="../images/starts.png" alt="img" />
+        <img src="../images/drive.PNG" alt="img" />
     </div>
 
      {/* second main div */}
