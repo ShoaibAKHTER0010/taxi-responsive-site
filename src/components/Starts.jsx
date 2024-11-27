@@ -40,4 +40,4 @@ We handle the traffic, you enjoy the journey.
   )
 }
 
-export default Starts
+export default Starts;
